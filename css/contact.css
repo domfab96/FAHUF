@@ -1,0 +1,114 @@
+/* Header */
+
+
+.contact_page{
+  background-image: url(/pages-bg/bg6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.contactPage_container{
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.contactPage_header h1{
+  color: var(--color-white);
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.contactPage_header p{
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0 8rem;
+  color: var(--color-white);
+}
+
+
+
+/* CONTACT FORM */
+.contact_form{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='906' height='300' preserveAspectRatio='none' viewBox='0 0 906 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1039%26quot%3b)' fill='none'%3e%3cpath d='M123.2 70.15L146.36 70.15L146.36 77.27L123.2 77.27z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M444.62 26.92L465.94 26.92L465.94 48.24L444.62 48.24z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M827.17 216.81L844.74 216.81L844.74 234.38L827.17 234.38z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M423.56 202a26.18 26.18 0 1 0-23.43 46.83z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M454.16 158.02a8.15 8.15 0 1 0-3.79-15.86z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M320.5 189.05L335.82 189.05L335.82 204.37L320.5 204.37z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M297.06 204.32 a13.27 13.27 0 1 0 26.54 0 a13.27 13.27 0 1 0 -26.54 0z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M549.79 153.21a12.35 12.35 0 1 0 11.01-22.11z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M521.79 127.72a18.42 18.42 0 1 0-23.83 28.09z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M113.37 263.94L114.94 263.94L114.94 290.28L113.37 290.28z' stroke='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M703.53 266.83L712.5 266.83L712.5 277.69L703.53 277.69z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M59.81 88.4a3.51 3.51 0 1 0-5.61 4.21z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M676.18 244.62a21.88 21.88 0 1 0-28.52 33.19z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M164.62 102.31L166.01 102.31L166.01 103.7L164.62 103.7z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M269.97 185.36a23.95 23.95 0 1 0 47.24-7.94z' stroke='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M680.62 27.22L700.6 27.22L700.6 47.2L680.62 47.2z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M211.73 292.17L237.44 292.17L237.44 292.63L211.73 292.63z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M664.61 159.07L689.76 159.07L689.76 184.22L664.61 184.22z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M575.75 99.08a20.74 20.74 0 1 0-32.21-26.13z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M779.62 49.49a29.23 29.23 0 1 0-53.62 23.3z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M798.52 289.19 a8.27 8.27 0 1 0 16.54 0 a8.27 8.27 0 1 0 -16.54 0z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M334.2 119.48 a17.81 17.81 0 1 0 35.62 0 a17.81 17.81 0 1 0 -35.62 0z' stroke='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M733.38 91.74L752.16 91.74L752.16 110.52L733.38 110.52z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M622.34 200.78L644.93 200.78L644.93 223.37L622.34 223.37z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M152.63 125.57L170.91 125.57L170.91 143.85L152.63 143.85z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M638.53 71.44a0.56 0.56 0 1 0 1.11-0.14z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M418.25 30.93L427.23 30.93L427.23 41.85L418.25 41.85z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M638.58 6.37L645.55 6.37L645.55 13.34L638.58 13.34z' stroke='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M502.82 119.53 a19.04 19.04 0 1 0 38.08 0 a19.04 19.04 0 1 0 -38.08 0z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M230.24 282.13 a9.38 9.38 0 1 0 18.76 0 a9.38 9.38 0 1 0 -18.76 0z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M245.58 100.21L266.25 100.21L266.25 124.88L245.58 124.88z' stroke='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M58.93 220.61a10.88 10.88 0 1 0-12.62 17.73z' stroke='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M416.22 122.42L430.9 122.42L430.9 130.49L416.22 130.49z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M509.15 264.93a4.04 4.04 0 1 0 8-1.12z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M773.61 73.16L775.82 73.16L775.82 75.37L773.61 75.37z' fill='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M774.3 63.63L790.58 63.63L790.58 79.91L774.3 79.91z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M516.73 284.07L517.82 284.07L517.82 289.75L516.73 289.75z' fill='rgba(0%2c 14%2c 168%2c 1)'%3e%3c/path%3e%3cpath d='M389.21 152.43L401.74 152.43L401.74 164.96L389.21 164.96z' stroke='rgba(235%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1039'%3e%3crect width='906' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.map_text h1, .form_text h1{
+  color: var(--color-text2);
+  font-weight: 700;
+}
+
+.map_text h1 i{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.map img{
+  height: 30rem;
+}
+
+form{
+  padding-right: 2rem;
+}
+
+
+
+/* -============= MEDIA-QUERY (TABLET) ============= */
+
+@media screen and (max-width:1024px){
+
+ 
+  .contact_page{
+    height: 110vh;
+  }
+
+  .contactPage_container{
+    padding-top: 5rem;
+  }
+  .contactPage_header h1{
+    font-size: 4rem;
+
+  }
+
+  .contactPage_header p{
+    font-size: 1.3rem;
+    padding: 0 4rem;
+    font-weight: 500;
+  }
+
+  .map_text h1, .form_text h1{
+    font-size: 1.4rem;
+  }
+
+  .map_text h5{
+    font-size: 0.9rem;
+  }
+
+}
+
+
+
+
+/* -============= MEDIA-QUERY (PHONES) ============= */
+
+@media screen and (max-width:600px){
+  .contactPage_container{
+    padding-top: 10rem;
+  }
+
+  .contactPage_header h1{
+    font-size: 3rem;
+  }
+
+  .contactPage_header p{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 0.3rem;
+  }
+}

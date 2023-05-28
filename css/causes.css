@@ -1,0 +1,70 @@
+.causes_page{
+  background-image: url(/FAHUF/child-fahuf-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.causesPage_container{
+  padding-top: 13rem;
+  text-align: center;
+
+}
+
+
+.causesPage_header h4{
+  color: var(--color-white);
+  font-weight: 600;
+  
+}
+
+.causesPage_header h1{
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+.causesPage_header p{
+  font-size: 1.4rem;
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+#causes{
+  margin: 0;
+}
+
+/* -============= MEDIA-QUERY (TABLET) ============= */
+
+@media screen and (max-width:1024px){
+  .causesPage_header p{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+
+@media screen and (max-width:600px){
+
+  .causes_page{
+    background-image: url(/bg-potraits/bg5.jpg);
+    height: 90vh;
+    width: 100vw;
+    
+  }
+  .causesPage_header p{
+    font-weight: 500;
+    color: var(--color-text2);
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+
+  .causesPage_header h4{
+    font-size: 1.2rem;
+    font-weight: 500  ;
+    color: var(--color-text2);
+  }
+  .causesPage_header h1{
+    color: var(--color-text2);
+  }
+}
