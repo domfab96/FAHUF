@@ -1020,8 +1020,8 @@ footer{
   }
 
   #header{
-   background-image: url(/bg-potraits/bg4.jpg);
-   height: 170vh;
+   background-image: url(/FAHUF/group-photo.jpg);
+   height: 150vh;
   }
 
 
@@ -1040,7 +1040,7 @@ footer{
   }
 
   .medals_container{
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 
 
@@ -1125,6 +1125,23 @@ footer{
 @media screen and (max-width:340px){
   .navbar-brand{
     margin-right: 3rem;
+  }
+
+
+  #header{
+    height:100vh;
+  }
+
+  .medals_container{
+    margin-top: 0;
+    padding: 0;
+    display: none;
+  }
+  .medal_card{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
   }
 
   .header_text a{

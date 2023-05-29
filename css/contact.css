@@ -102,6 +102,11 @@ form{
     padding-top: 10rem;
   }
 
+
+  .contact_page{
+    background-image: url(/pages-bg/bg7.jpg);
+  }
+
   .contactPage_header h1{
     font-size: 3rem;
   }
