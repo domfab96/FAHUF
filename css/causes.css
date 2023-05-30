@@ -67,4 +67,8 @@
   .causesPage_header h1{
     color: var(--color-text2);
   }
+
+  .cause .cause_img img{
+    height: 10rem;
+  }
 }

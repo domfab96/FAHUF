@@ -279,6 +279,10 @@ img{
     font-weight: 200;
     font-size: 0.7rem;
   }
+
+  .team_member-image img{
+    height: 8rem;
+  }
 }
 
 /* -============= MEDIA-QUERY (PHONES) ============= */
