@@ -32,14 +32,36 @@ img{
 
 .aboutPage_header h1{
   font-size: 6rem;
-  color: var(--color-white);
   font-weight: 600;
+  background: linear-gradient(
+        to right,
+        #9c0000 20%,
+        #000ea8 30%,
+        #000ea8 70%,
+        #fff 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
 }
 
 .aboutPage_header p{
   padding: 0 8rem;
   font-size: 1.3rem;
   font-weight: 600;
+  font-family: 'Lobster Two', cursive;
   color: var(--color-white);
 }
 
@@ -73,6 +95,9 @@ img{
   -webkit-backdrop-filter: blur(7px);
   backdrop-filter: blur(7px);
   
+}
+.mission_body h5{
+  font-family: 'Lobster Two', cursive;
 }
 
 .mission_right .card{
@@ -227,13 +252,27 @@ img{
 
 /* -============= MEDIA-QUERY (PHONES) ============= */
 
-@media screen and (max-width:600px){
+h1{
+  font-size: 1rem;
+}
 
+h5, h4{
+  font-size: 0.9rem;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+  #about_page{
+    height: 100vh;
+  }
   .aboutPage_container{
     padding-top: 9rem;
   }
   .aboutPage_header h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .aboutPage_header p{
     font-weight: 300;
@@ -258,6 +297,9 @@ img{
     margin: 0;
   }
 
+  .mission_body h5{
+    font-size: 1rem;
+  }
   .team{
     padding-top: 2rem;
   }
