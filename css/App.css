@@ -288,6 +288,15 @@
   background-size: cover;
   overflow-x: hidden;
 }
+#header::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+}
 
 
 .header_icons{
@@ -325,10 +334,7 @@
 .header_text{
   text-align: start;
   width:30rem ;
-  background: rgba(255, 255, 255, 0.13);
-  padding-bottom: 2rem;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(1px);
+
 }
 
 .header_text h1{
@@ -362,7 +368,7 @@
 .header_text p{
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: 'Lobster Two', cursive;
+  color: var(--color-white);
 
 }
 
@@ -373,7 +379,7 @@
 /* ====== ABOUT ======= */
 
 .about_container{
-  padding: 1.5rem;
+  padding: 0.5rem;
   background: rgba(255, 255, 255, 0.356);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -465,11 +471,10 @@
 
 
 #causes{
-  background-image: url(/body-bg/Sprinkle1.svg);
+  background-image: url(/body-bg/img4.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 }
 .causes_title{
   text-align: center;
@@ -501,7 +506,8 @@
 }
 
 .col .cause{
-  border: 1px solid var(--color-bg1);
+  border-radius: 1rem;
+  overflow: hidden;
   box-shadow: 0 0 17px #000ea865;
   transition: var(--transition);
 
@@ -517,16 +523,29 @@
   height: 12rem;
 }
 
-/* .col .cause .cause_description{
+.col .cause:hover .cause_description h5{
+  color: var(--color-white);
+}
+.col .cause:hover .cause_description p{
+  color: var(--color-white);
+}
+
+.col .cause .cause_description{
   padding: 1rem;
   background:rgba(255, 255, 255, 0.103);
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
-} */
-
-.col .cause .cause_description h5, .col .cause .cause_description p{
-  color: var(--color-white);
 }
+
+.col .cause .cause_description h5{
+  color: var(--color-bg2);
+}
+
+
+.col .cause .cause_description p{
+  color: var(--color-bg2);
+}
+ 
 
 
 
@@ -1153,6 +1172,10 @@ footer{
     text-align: center;
     width: 100%;
     margin-top: 4rem;
+    background: rgba(255, 255, 255, 0.13);
+    padding-bottom: 2rem;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
   }
 
   .header_text h1{
@@ -1163,6 +1186,7 @@ footer{
     font-size: 0.8rem;
     margin-bottom: 0.6rem;
     color:var(--color-bg3);
+    
   }
 
   .header_text .btn-secondary, .header_text .btn-primary{
@@ -1194,6 +1218,9 @@ footer{
   #causes{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-image: url(/body-bg/img9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .causes_title p{
@@ -1208,6 +1235,10 @@ footer{
   .cause_description {
     padding:0.2rem;
   }
+
+    .cause_description p{
+      color: #302c2c;
+    }
 
 
   #events{

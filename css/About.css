@@ -1,5 +1,5 @@
 #about_page{
-  background-image: url(/pages-bg/bg4.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pages-bg/bg4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -61,7 +61,6 @@ img{
   padding: 0 8rem;
   font-size: 1.3rem;
   font-weight: 600;
-  font-family: 'Lobster Two', cursive;
   color: var(--color-white);
 }
 

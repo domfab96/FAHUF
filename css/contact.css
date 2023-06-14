@@ -2,18 +2,24 @@
 
 
 .contact_page{
-  background-image: url(/pages-bg/bg6.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/pages-bg/bg6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   margin: 0;
+  position: relative;
 }
+
+/* background: linear-gradient(rgba(35, 55, 93, 0.39), rgba(35, 55, 93, 0.178)), url(../side-bar-img/inspiration.jpg); */
+      
 
 .contactPage_container{
   text-align: center;
   padding-top: 10rem;
+   
 }
+
 
 .contactPage_header h1{
   font-size: 3rem;

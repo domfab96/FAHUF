@@ -1,5 +1,5 @@
 .blog_page{
-  background-image: url(/bg/bg4.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/bg/bg4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -103,7 +103,9 @@
 @media screen and (max-width:600px){
 
   .blog_page{
-    background-image: url(/bg-potraits/bg1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/bg-potraits/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 95vh;
     margin: 0;
     padding: 0;
